@@ -12,144 +12,144 @@
 </head>
 
 
-<body>
-    <main>
-        <section>
-            <img src="/images/avatar.jpg" alt="Avatar" class="avatar">
-        </section> 
-
-        <nav></nav>
+<body class="cv">
+    <div class="container">
+        <main class="main_block"></main>
+            <aside class="aside_block block3">
+                <section class="avatarka block2">
+                    <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+                </section>
+                <section class="contact_me">
+                    <h2>Contact me</h2>
+                    <ul class="contacts">
+                        <li class="contact">
+                            <address>
+                                <img src="images/favicons/phone64.svg" alt="" class="icon">
+                                +375 (29) 188 68 84</address>
+                        </li>
+                        <li class="contact">
+                            <address> <img src="images/favicons/email64.svg" alt="" class="icon">
+                                <a href="mailto:rijaiaola@gmail.com">rijaiaola@gmail.com</a></a></address>
+                        </li>
+                        <li class="contact">
+                            <address> <img src="images/favicons/telegram64.svg" alt="" class="icon"> 
+                                <a href="https://t.me/red_soull">@red_soull</a></address>
+                        </li>
+                        <li class="contact">
+                            <address><img src="images/favicons/github64.svg" alt="" class="icon">
+                                <a href="https://github.com/red-soull">@red-soull</a></address>
+                        </li>
+                        <li class="contact">
+                            <address> <img src="images/favicons/linkedin64.svg" alt="" class="icon">
+                                <a href="https://www.linkedin.com/in/red-soull/">@red-soull</a></address>
+                        </li>
+                    </ul>
+                </section>
+                <section class="tech_skill block2">
+                    <h2>Skill set</h2>
+                    <div>
+                        <h3>Technical skills</h3>
+                        <ul>
+                            <li class="skill">SQL</li>
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">Git/GitHub</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Organization and soft skills</h3>
+                        <ul>
+                            <li class="skill_org">Agile</li>
+                            <li class="skill_org">Kanban</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>My strength</h3>
+                        <ul>
+                            <li class="skill_strehgth">Team player</li>
+                            <li class="skill_strehgth">Creativity</li>
+                            <li class="skill_strehgth">Versatility</li>
+                            <li class="skill_strehgth">Flexibility</li>
+                            <li class="skill_strehgth">Self-control</li>
+                        </ul>
+                    </div>
+                </section>
+            </aside> 
         
-        <section class="about_me">
-            <article>
-                <h2>
-                    About me
-                </h2>
-                <p>
-                    I am 33 years old and currently working as a data analyst at Mapbox. In my work, I often use SQL queries, create metrics and dashboards in analytical programs (Athena, Mode Analytics).
-                </p>
-                <p>
-                    Over the three years of work in the IT, I constantly learn something new and acquire new skills. I get along well with people and a good team player. Recently I took courses in project management, which gave me an understanding of approaches to work organization and project management.
-                </p>
-                <p>
-                    I like programming because it allows you to implement your ideas and have things done.
-                </p>
+            <article class="info block3">
+                <section class="about_me  block">
+                    <article>
+                        <h2>
+                            About me
+                        </h2>
+                        <p>
+                            I am 33 years old and currently working as a data analyst at Mapbox. In my work, I often use SQL queries, create metrics and dashboards in analytical programs (Athena, Mode Analytics).
+                        </p>
+                        <p>
+                            Over the three years of work in the IT, I constantly learn something new and acquire new skills. I get along well with people and a good team player. Recently I took courses in project management, which gave me an understanding of approaches to work organization and project management.
+                        </p>
+                        <p>
+                            I like programming because it allows you to implement your ideas and have things done.
+                        </p>
+                    </article>
+                </section>
+                <section class='code block'>
+                    <h2>Code Examples</h2>
+                    <div class="code_ex">
+                        <pre><code class="sql">
+        Select
+            field_1,
+            day,
+            sum(Case When field_2='yes' then 1 else 0 end) as well
+        From some_table
+        Where things='good'
+        Group By field_1, 
+                day
+        Order by day desc
+                            </code></pre>
+                    </div>
+                </section>
+                
+                <section class="education block">
+                    <h2>Education</h2>
+                    <ul>
+                        <li class="educations">Belorussin National Technical University, Engineer (2006-2011)</li>
+                        <li class="educations">HTML и CSS courses on <a href="https://htmlacademy.ru/profile/id1169577"></a>HTMLacademy</a></li>
+                        <li class="educations">The Rolling Scopes School - JavaScript/Front-end 2021Q3 (in progress)</li>
+                        <li class="educations">Internal Mapbox Project managment courses</li>
+                    </ul>
+                </section>
 
+                <section class="languages block">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li class="lng">Russian - native</li>
+                        <li class="lng">Belorussian - native</li>
+                        <li class="lng">English - intermediate (B1-B2)</li>
+                    </ul>
+                </section>
+
+                <section class="experience block">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li class="exper">Data base specialist - <a href="https://www.mapbox.com/">Mapbox</a>  2018 - current time </li>
+                        <li class="exper">Technologist - <a href="https://antynea.com/">Vishnev company</a> 2017 - 2018</li>
+                        <li class="exper">Accountant - <a href="http://pkhp.by/">PKHP</a> 2016 - 2017</li>
+                        <li class="exper">Sailer - <a href="https://sapermebel.by/stores/129/">JaKo Company</a> 2015 - 2016</li>
+                        <li class="exper">Engineer - <a href="https://kartoteka.by/unp-200181691">STM-2 PMY Department</a> 2013 - 2015</li>
+                        <li class="exper">Manager of laboratory<a href="http://www.omz.by/">OMZ</a> 2011 - 2013</li>
+                    </ul>
+                </section>   
             </article>
-        </section>
-
-        <section>
-            <h2>Skill set</h2>
-            <div class="tech_skill">
-                <h3>Technical skills</h3>
-                <ul>
-                    <li class="skill">SQL</li>
-                    <li class="skill">HTML</li>
-                    <li class="skill">CSS</li>
-                    <li class="skill">JavaScript</li>
-                    <li class="skill">Git/GitHub</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Organization and soft skills</h3>
-                <ul>
-                    <li class="skill_org">Agile</li>
-                    <li class="skill_org">Kanban</li>
-                </ul>
-            </div>
-            <div>
-                <h3>My strength</h3>
-                <ul>
-                    <li class="skill_strehgth">Team player</li>
-                    <li class="skill_strehgth">Creativity</li>
-                    <li class="skill_strehgth">Versatility</li>
-                    <li class="skill_strehgth">Flexibility</li>
-                    <li class="skill_strehgth">Self-control</li>
-                </ul>
-            </div>
-        </section>
-        
-        
-        <article></article>
-        
-        <article></article>
-        
-        <section class="contact_me">
-            <h2>Contact me</h2>
-            <ul class="contacts">
-                <li class="contact">
-                    <address>Phone: <a href="">+375 (29) 188 68 84</a></address>
-                </li>
-                <li class="contact">
-                    <address>e-mail: <a href="rijaiaola@gmail.com">rijaiaola@gmail.com</a></address>
-                </li>
-                <li class="contact">
-                    <address> Telegram: 
-                        <a href="https://t.me/red_soull">@red_soull</a></address>
-                </li>
-                <li class="contact">
-                    <address><a href="https://github.com/red-soull">@red-soull</a></address>
-                </li>
-                <li class="contact">
-                    <address><a href="https://www.linkedin.com/in/red-soull/">@red-soull</a></address>
-                </li>
+        </main> 
+        <footer class="footer">
+            <ul class="foot">
+                <li><a href="https://github.com/red-soull"><img src="images/favicons/github64.svg" alt="" class="icon"></a></li>
+                <li>2021</li>
+                <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="" class="icon_foot"></a></li>
             </ul>
-        </section class='code'>
-            <h2>Code Examples</h2>
-            <pre><code class="sql">
-            Select
-                field_1,
-                day,
-                sum(Case When field_2='yes' then 1 else 0 end) as well
-            From some_table
-            Where things='good'
-            Group By field_1, 
-                    day
-            Order by day desc
-            </code></pre>
-
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li class="educations">Belorussin National Technical University, Engineer (2006-2011)</li>
-                <li class="educations">HTML и CSS courses on <a href="https://htmlacademy.ru/profile/id1169577"></a>HTMLacademy</a></li>
-                <li class="educations">The Rolling Scopes School - JavaScript/Front-end 2021Q3 (in progress)</li>
-                <li class="educations">Internal Mapbox Project managment courses</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Languages</h2>
-            <ul>
-                <li class="lng">Russian - native</li>
-                <li class="lng">Belorussian - native</li>
-                <li class="lng">English - intermediate (B1-B2)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-        </section>
-
-        ## 
-
-_All organizations which I've worked for are presented below._
-
-**Period** | **Organization** | **Position**
------------|------------------|--------------
-_2018 - current time_ | [Mapbox](https://www.mapbox.com/) | Data base specialist
-_2017 - 2018_ | [Vishnev company](https://antynea.com/) | Technologist
-_2016 - 2017_ | [PKHP](http://pkhp.by/) | Accountant
-_2015 - 2016_ | [JaKo Company](https://sapermebel.by/stores/129/) | Sailer
-_2013 - 2015_ | [STM-2 PMY Department](https://kartoteka.by/unp-200181691) | Engineer
-_2011 - 2013_ | [OMZ](http://www.omz.by/) | Manager of laboratory
-        <aside></aside>  
-
-    </main> 
-    <address></address>
-    <footer></footer>
-
-    <wbr>
-    <time></time>
+        </footer>
+    </div>
 </body>
 </html>
