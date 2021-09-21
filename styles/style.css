@@ -4,6 +4,7 @@ body.cv {
     margin: 0;
     padding: 0;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@ body.cv {
     width: 100%;
     position: relative;
 }
+
 .aside_block {
     display: block;
     flex-direction: column;
@@ -121,4 +123,3 @@ body.cv {
     margin-top: 30px;
     list-style-type: none;
 }
-
