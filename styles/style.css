@@ -1,6 +1,8 @@
 body.cv {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(248, 248, 248);
+    margin: 0;
+    padding: 0;
 }
 .container {
     display: flex;
@@ -10,17 +12,20 @@ body.cv {
     margin: 0 auto;
 }
 
+.name>h1 {
+    font-size: 2em;
+}
+
 .main_block {
     display: flex;
     flex-direction: row;
     width: 100%;
     position: relative;
-    padding: 10px 10px 10px 10px;
 }
 .aside_block {
     display: block;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     background-color: slategray;
     position: relative;
     left: 0px;
@@ -38,11 +43,15 @@ body.cv {
 }
 
 .block2 {
-    padding: 15px 50px;
+    padding: 10px 40px;
 }
 
 .block3 {
     padding: 10px 20px;
+}
+
+.block>h2 {
+    border-bottom: 3px solid darkgrey;
 }
 
 .info {
@@ -51,7 +60,6 @@ body.cv {
     position: relative;
     width: 65%;
     right: 0px;
-    
 }
 
 .avatarka {
@@ -61,13 +69,16 @@ body.cv {
 
 .avatar {
     vertical-align: middle;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     border-radius: 50%;
+    align-items: center;
 }
 
 .contact_me {
-    width: 75%;
+    border-top: 3px solid oldlace;
+    border-bottom: 3px solid oldlace;
+ 
 }
 
 .code_ex {
@@ -102,6 +113,7 @@ body.cv {
     height: 100px;
     background-color: lightgray;
 }
+
 .foot {
     display: flex;
     align-items: center;
